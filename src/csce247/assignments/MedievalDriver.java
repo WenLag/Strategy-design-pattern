@@ -1,4 +1,4 @@
-package csce247.assignments.strategy;
+package csce247.assignments;
 
 public class MedievalDriver {
 	

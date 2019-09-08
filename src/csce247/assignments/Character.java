@@ -1,11 +1,9 @@
-package csce247.assignments.strategy;
+package csce247.assignments;
 
 public abstract class Character{
 	protected String name;
-	
 	protected WeaponBehavior weaponBehavior;
 	
-
 	public Character(String name) {
 		this.name = name;
 	}
@@ -19,7 +17,6 @@ public abstract class Character{
 	}
 	
 	public void display() {
-		System.out.println(name + " is a ------");
 	}
 
 	
